@@ -16,6 +16,12 @@
     },
     "bin": ["lucid"],
     "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/nocksapp/log-reader"
+        },
+    ],
     "require": {
         "symfony/console": "^4.1",
         "symfony/process": "^4.1",
